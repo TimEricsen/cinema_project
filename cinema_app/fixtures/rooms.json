@@ -1,0 +1,47 @@
+[
+  {
+    "model": "cinema_app.cinemaroom",
+    "pk": 1,
+    "fields": {
+      "room": 1,
+      "number_of_tickets": 30,
+      "price": 30
+    }
+  },
+  {
+    "model": "cinema_app.cinemaroom",
+    "pk": 2,
+    "fields": {
+      "room": 2,
+      "number_of_tickets": 30,
+      "price": 30
+    }
+  },
+  {
+    "model": "cinema_app.cinemaroom",
+    "pk": 3,
+    "fields": {
+      "room": 3,
+      "number_of_tickets": 50,
+      "price": 20
+    }
+  },
+  {
+    "model": "cinema_app.cinemaroom",
+    "pk": 4,
+    "fields": {
+      "room": 4,
+      "number_of_tickets": 50,
+      "price": 20
+    }
+  },
+  {
+    "model": "cinema_app.cinemaroom",
+    "pk": 5,
+    "fields": {
+      "room": 5,
+      "number_of_tickets": 10,
+      "price": 50
+    }
+  }
+]

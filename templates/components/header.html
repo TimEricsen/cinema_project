@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container">
+        <div class="container-fluid d-flex justify-content-between">
+            <a class="navbar-brand text-light" href="{% url 'main_page' %}"><b class="fs-3">Main Page</b></a>
+            <div align="right row">
+                {% if request.user.is_authenticated %}
+                <h5 class="text-light">Hi, {{ request.user.username }}</h5>
+                <a href="{% url 'logout' %}" class="upcomings fs-5"><b>Logout</b></a>
+                {% else %}
+                <a href="{% url 'login' %}" class="me-5 upcomings fs-5"><b>Log in</b></a>
+                <a href="{% url 'registration' %}" class="upcomings fs-5"><b>Sign up</b></a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</nav>

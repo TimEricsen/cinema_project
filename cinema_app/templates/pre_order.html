@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock title %}
+
+{% block main %}
+<div class="container">
+    <div class="row detail-film">
+        <div class="col-3" align="center">
+            <h1 class="text-light film-title mb-5">{{ film.film }}</h1>
+            <div class="film-image">
+                <img src="{{ film.image.url }}" alt="{{ film.image }}" width="300">
+            </div>
+            <h5 class="text-secondary">{{ show_date.date }}</h5>
+            <h5 class="text-secondary">Ticket Price: {{ show_date.room.price }}$</h5>
+            <h5 class="text-secondary">{{ film.duration }}</h5>
+        </div>
+        <div class="col-9">
+            <form action="{% url 'payment' show_date.pk %}" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <h4 class="text-light mt-5" align="center">Enter your details:</h4>
+                <div class="forms" align="center">
+                    <div class="form-group mt-4" style="width:500px;">
+                        <h3 align="left" class="text-secondary">Your First Name:</h3>
+                        {{ form.first_name }}
+                    </div>
+                    <div class="form-group mt-3" style="width:500px;">
+                        <h3 align="left" class="text-secondary">Your Last Name:</h3>
+                        {{ form.last_name }}
+                    </div>
+                    <div class="form-group mt-3" style="width:500px;">
+                        <h3 align="left" class="text-secondary">Your phone number:</h3>
+                        {{ form.phone_number }}
+                    </div>
+                    <button type="submit" class="btn btn-light mt-4">Go to pay</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    {% endblock main %}

@@ -1,0 +1,173 @@
+[
+  {
+    "model": "cinema_app.showdate",
+    "pk": 1,
+    "fields": {
+      "date": "2023-06-22 19:00:00+00",
+      "room": 1,
+      "film": 1
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 2,
+    "fields": {
+      "date": "2023-06-22 20:00:00+00",
+      "room": 2,
+      "film": 1
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 3,
+    "fields": {
+      "date": "2023-06-22 20:30:00+00",
+      "room": 5,
+      "film": 1
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 4,
+    "fields": {
+      "date": "2023-06-22 19:00:00+00",
+      "room": 3,
+      "film": 2
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 5,
+    "fields": {
+      "date": "2023-06-22 21:00:00+00",
+      "room": 4,
+      "film": 2
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 6,
+    "fields": {
+      "date": "2023-06-22 23:15:00+00",
+      "room": 5,
+      "film": 2
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 7,
+    "fields": {
+      "date": "2023-06-22 22:30:00+00",
+      "room": 1,
+      "film": 3
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 8,
+    "fields": {
+      "date": "2023-06-22 23:30:00+00",
+      "room": 2,
+      "film": 3
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 9,
+    "fields": {
+      "date": "2023-06-22 22:30:00+00",
+      "room": 3,
+      "film": 3
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 10,
+    "fields": {
+      "date": "2023-06-22 17:45:00+00",
+      "room": 4,
+      "film": 5
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 11,
+    "fields": {
+      "date": "2023-06-21 22:00:00+00",
+      "room": 1,
+      "film": 5
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 12,
+    "fields": {
+      "date": "2023-06-21 22:00:00+00",
+      "room": 5,
+      "film": 5
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 13,
+    "fields": {
+      "date": "2023-06-21 19:00:00+00",
+      "room": 2,
+      "film": 4
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 14,
+    "fields": {
+      "date": "2023-06-21 18:45:00+00",
+      "room": 2,
+      "film": 4
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 15,
+    "fields": {
+      "date": "2023-06-21 20:00:00+00",
+      "room": 3,
+      "film": 4
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 16,
+    "fields": {
+      "date": "2023-06-21 20:00:00+00",
+      "room": 4,
+      "film": 4
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 17,
+    "fields": {
+      "date": "2023-06-21 19:00:00+00",
+      "room": 1,
+      "film": 6
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 18,
+    "fields": {
+      "date": "2023-06-22 18:00:00+00",
+      "room": 5,
+      "film": 6
+    }
+  },
+  {
+    "model": "cinema_app.showdate",
+    "pk": 19,
+    "fields": {
+      "date": "2023-06-21 23:15:00+00",
+      "room": 4,
+      "film": 6
+    }
+  }
+]

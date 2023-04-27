@@ -1,0 +1,74 @@
+[
+  {
+    "model": "cinema_app.cinemapremiere",
+    "pk": 1,
+    "fields": {
+      "film": "Spider-Man (2002)",
+      "description": "After being bitten by a genetically-modified spider, a shy teenager gains spider-like abilities that he uses to fight injustice as a masked superhero and face a vengeful enemy.",
+      "release_date": "2002-05-03",
+      "duration": "2h 1m",
+      "trailer": "uploads/film_trailers/SPIDER-MAN_2002__Official_Trailer_HD.mp4",
+      "image": "uploads/film_posters/spider_man2002.jpg"
+    }
+  },
+  {
+    "model": "cinema_app.cinemapremiere",
+    "pk": 2,
+    "fields": {
+      "film": "Shutter Island",
+      "description": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",
+      "release_date": "2010-02-19",
+      "duration": "2h 18m",
+      "trailer": "uploads/film_trailers/Shutter_Island_2010_Trailer_1___Movieclips_Classic_Trailers.mp4",
+      "image": "uploads/film_posters/shutter_island.jpg"
+    }
+  },
+  {
+    "model": "cinema_app.cinemapremiere",
+    "pk": 3,
+    "fields": {
+      "film": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "description": "Blacksmith Will Turner teams up with eccentric pirate \"Captain\" Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
+      "release_date": "2003-06-28",
+      "duration": "2h 23m",
+      "trailer": "uploads/film_trailers/Pirates_of_the_Caribbean__The_Curse_of_the_Black_Pearl_Official_Tr_nPEwQBt.mp4",
+      "image": "uploads/film_posters/pirates_of_carriben_black_pearl.jpg"
+    }
+  },
+  {
+    "model": "cinema_app.cinemapremiere",
+    "pk": 4,
+    "fields": {
+      "film": "The Revenant",
+      "description": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
+      "release_date": "2015-12-16",
+      "duration": "2h 36m",
+      "trailer": "uploads/film_trailers/The_Revenant___Official_Trailer_HD___20th_Century_FOX.mp4",
+      "image": "uploads/film_posters/the_revenant.jpg"
+    }
+  },
+  {
+    "model": "cinema_app.cinemapremiere",
+    "pk": 5,
+    "fields": {
+      "film": "Django Unchained",
+      "description": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.",
+      "release_date": "2012-12-25",
+      "duration": "2h 45m",
+      "trailer": "uploads/film_trailers/DJANGO_UNCHAINED_-_Official_International_Trailer.mp4",
+      "image": "uploads/film_posters/django_unchained.jpg"
+    }
+  },
+  {
+    "model": "cinema_app.cinemapremiere",
+    "pk": 6,
+    "fields": {
+      "film": "The Hot Chick",
+      "description": "An attractive and popular teenager, who is mean-spirited toward others, finds herself in the body of an older man, and must find a way to get back to her original body.",
+      "release_date": "2002-12-02",
+      "duration": "1h 44m",
+      "trailer": "uploads/film_trailers/The_Hot_Chick_2002_Official_Trailer__1_-_Rob_Schneider_HD.mp4",
+      "image": "uploads/film_posters/the_hot_chick.jpg"
+    }
+  }
+]

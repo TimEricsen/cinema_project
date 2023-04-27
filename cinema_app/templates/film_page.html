@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock title %}
+
+{% block main %}
+<div class="container">
+    <div class="detail-film">
+        <div class="detail-film-header row">
+            <div class="col-3" align="center">
+                <h1 class="text-light film-title mb-5">{{ film.film }}</h1>
+                <div class="film-image">
+                    <img src="{{ film.image.url }}" alt="{{ film.image }}" width="300">
+                </div>
+            </div>
+            <div class="col-9 mt-3">
+                <h3 class="text-light film-title me-5" align="right">Trailer</h3>
+                <video width="920" controls muted>
+                    <source src="{{ film.trailer.url }}" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="more-details-block row">
+            <div class="col-6">
+                <div class="more-details mt-5">
+                    <h4 class="text-light about">About:</h4>
+                    <h5 class="text-light about">{{ film.description }}</h5>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="more-details mt-5">
+                    <h4 class="text-light about">Duration: {{ film.duration }}</h4>
+                    <h4 class="text-light about mt-4">Release Date: {{ film.release_date }}</h4>
+                </div>
+            </div>
+        </div>
+        <div class="film-sessions row">
+            <div class="col-6">
+                <h3 class="text-light mt-5 about">Film Sessions:</h3>
+                {% for date in show_date %}
+                {% if date.get_total_available_tickets > 0 %}
+                <div class="film-session mt-4">
+                    <h4 class="text-light about">{{ forloop.counter }}. {{ date.date }} in Room {{date.room}}</h4>
+                    <h4 class="text-light about">Tickets Available: {{ date.get_total_available_tickets }}</h4>
+                    <h4 class="text-light about">Ticket Price: {{ date.room.price }}$</h4>
+                    {% if request.user.is_authenticated %}
+                    <div class="order-button ms-5">
+                        <a href="{% url 'pre_order' date.pk %}" class="btn btn-light">Make an Order</a>
+                    </div>
+                    {% else %}
+                    <h4 class="text-danger about">To make an order, you have to register.</h4>
+                    {% endif %}
+                </div>
+                <br><br>
+                {% endif %}
+                {% endfor %}
+                <br><br><br><br><br>
+            </div>
+            <div class="col-6">
+                <h3 class="text-light mt-5 about">Cast:</h3>
+                <div class="actor-list mt-4">
+                    {% for actor in cast %}
+                    <div class="row mb-5">
+                        <div class="col-3 actor-image">
+                            <img src="{{ actor.image.url }}" alt="{{ actor.actor_name }}" width="80">
+                        </div>
+                        <div class="col-3 ms-2 actor-info">
+                            <h5 class="text-light about">{{ actor.actor_name }}</h5>
+                            <p class="text-secondary about">{{ actor.role }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock main %}

@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock title %}
+
+{% block main %}
+<div class="container container-main">
+    <div class="row">
+        <div class="col-9">
+            <div align="center" class="mb-4">
+                <h2 class="premieres-text text-light">Show Premieres:</h2>
+            </div>
+            <div class="row film-list">
+                {% for film in films %}
+                {% if film.sdate.all %}
+                <div class="card film-card mb-4">
+                    <img src="{{ film.image.url }}" alt="{{ film.film }}" class="film-image">
+                    <div class="overlay">
+                        <div class="film-text">
+                            <h4 class="mb-5">{{ film.film }}</h4>
+                            <p class="mb-5">{{ film.description }}</p>
+                            <a href="{% url 'film_page' film.film %}" class="btn btn-light">More...</a>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-3" align="center">
+            <h4 class="sessions-text text-light mb-4">Upcoming sessions:</h4>
+            <div class="most-upcoming">
+                <ul>
+                    {% for date in show_dates %}
+                    <li class="li-show-upcoming mb-5">
+                        {% if request.user.is_authenticated %}
+                            {% if date.get_total_available_tickets > 0 %}
+                    <a href="{% url 'pre_order' date.pk %}" class="upcomings">{{ date.film.film }} - {{ date.date }}</a>
+                            {% endif %}
+                        {% else %}
+                        <p class="text-light about">{{ date.film.film }} - {{ date.date }}</p>
+                        {% endif %}
+                    {% endfor %}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock main %}

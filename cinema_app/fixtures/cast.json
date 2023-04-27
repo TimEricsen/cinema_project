@@ -1,0 +1,232 @@
+[
+  {
+    "model": "cinema_app.cast",
+    "pk": 1,
+    "fields": {
+      "actor_name": "Tobey Maguire",
+      "role": "Spider-Man",
+      "image": "uploads/actors/tobey_maguire.jpg",
+      "film": "1"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 2,
+    "fields": {
+      "actor_name": "Kirsten Dunst",
+      "role": "Mary Jane Watson",
+      "image": "uploads/actors/kirsten_dunst.jpg",
+      "film": "1"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 3,
+    "fields": {
+      "actor_name": "Willem Dafoe",
+      "role": "Green Goblin",
+      "image": "uploads/actors/willem_defoe.jpg",
+      "film": "1"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 4,
+    "fields": {
+      "actor_name": "James Franco",
+      "role": "Harry Osborn",
+      "image": "uploads/actors/james_franco.jpg",
+      "film": "1"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 5,
+    "fields": {
+      "actor_name": "Jamie Foxx",
+      "role": "Django",
+      "image": "uploads/actors/jamie_foxx.jpg",
+      "film": "5"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 6,
+    "fields": {
+      "actor_name": "Christoph Waltz",
+      "role": "Dr. King Schultz",
+      "image": "uploads/actors/christoph_waltz.jpg",
+      "film": "5"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 7,
+    "fields": {
+      "actor_name": "Leonardo DiCaprio",
+      "role": "Calvin Candie",
+      "image": "uploads/actors/lenardo_dicaprio.jpg",
+      "film": "5"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 8,
+    "fields": {
+      "actor_name": "Samuel L. Jackson",
+      "role": "Stephen",
+      "image": "uploads/actors/samuel_l_jackson.jpg",
+      "film": "5"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 9,
+    "fields": {
+      "actor_name": "Leonardo DiCaprio",
+      "role": "Teddy Daniels",
+      "image": "uploads/actors/lenardo_dicaprio_eTkowXP.jpg",
+      "film": "2"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 10,
+    "fields": {
+      "actor_name": "Emily Mortimer",
+      "role": "Rachel 1",
+      "image": "uploads/actors/emily_mortimer.jpg",
+      "film": "2"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 11,
+    "fields": {
+      "actor_name": "Mark Ruffalo",
+      "role": "Chuck Aule",
+      "image": "uploads/actors/mark_ruffalo.jpg",
+      "film": "2"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 12,
+    "fields": {
+      "actor_name": "Ben Kingsley",
+      "role": "Dr. Cawley",
+      "image": "uploads/actors/ben_kingsley.jpg",
+      "film": "2"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 13,
+    "fields": {
+      "actor_name": "Leonardo DiCaprio",
+      "role": "Hugh Glass",
+      "image": "uploads/actors/lenardo_dicaprio_Ehh7m3z.jpg",
+      "film": "4"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 14,
+    "fields": {
+      "actor_name": "Tom Hardy",
+      "role": "John Fitzgerald",
+      "image": "uploads/actors/tom_hardy.jpg",
+      "film": "4"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 15,
+    "fields": {
+      "actor_name": "Will Poulter",
+      "role": "Bridger",
+      "image": "uploads/actors/will_poulter.jpg",
+      "film": "4"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 16,
+    "fields": {
+      "actor_name": "Domhnall Gleeson",
+      "role": "Captain Andrew Henry",
+      "image": "uploads/actors/domhnail_gleeson.jpg",
+      "film": "4"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 17,
+    "fields": {
+      "actor_name": "Johnny Depp",
+      "role": "Jack Sparrow",
+      "image": "uploads/actors/johnny_depp.jpg",
+      "film": "3"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 18,
+    "fields": {
+      "actor_name": "Orlando Bloom",
+      "role": "Will Turner",
+      "image": "uploads/actors/orlando_bloom.jpg",
+      "film": "3"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 19,
+    "fields": {
+      "actor_name": "Keira Knightley",
+      "role": "Elizabeth Swann",
+      "image": "uploads/actors/keira_knightley.jpg",
+      "film": "3"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 20,
+    "fields": {
+      "actor_name": "Rob Schneider",
+      "role": "Jessica",
+      "image": "uploads/actors/rob_schneider.jpg",
+      "film": "6"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 21,
+    "fields": {
+      "actor_name": "Rachel McAdams",
+      "role": "Jessica",
+      "image": "uploads/actors/rachel_mcadams.jpg",
+      "film": "6"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 22,
+    "fields": {
+      "actor_name": "Anna Faris",
+      "role": "April",
+      "image": "uploads/actors/anna_faris.jpg",
+      "film": "6"
+    }
+  },
+  {
+    "model": "cinema_app.cast",
+    "pk": 23,
+    "fields": {
+      "actor_name": "Matthew Lawrence",
+      "role": "Billy",
+      "image": "uploads/actors/matthew_lawrence.jpg",
+      "film": "6"
+    }
+  }
+]
