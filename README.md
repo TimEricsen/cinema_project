@@ -8,4 +8,4 @@
 
  Application will be available at ```localhost:8000```
 
-# Test data will be automatically migrated.
+## Test data will be automatically migrated.
