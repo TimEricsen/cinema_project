@@ -6,6 +6,6 @@
 
 3. Аfter all the steps, you can run the command ```docker-compose up -d --build``` and use this application.
 
-application will be available at ```localhost:8000```
+ Application will be available at ```localhost:8000```
 
 # Test data will be automatically migrated.
