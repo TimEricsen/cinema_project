@@ -8,6 +8,6 @@
 
  Application will be available at ```localhost:8000```
  
-##After a successful payment, a QR key will be generated and sent to your e-mail, which will be a ticket for the session.
+## After a successful payment, a QR key will be generated and sent to your e-mail, which will be a ticket for the session.
 
 ## Test data will be automatically migrated.
