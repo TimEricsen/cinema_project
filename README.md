@@ -1,6 +1,6 @@
 # A project that represents a complete app for online purchase of tickets for a movie session.
 ## How to run localy:
-1. You have to create ```.env``` file in ```cinema_project``` directory to record all the data necessary for application that used in ```setting.py```
+1. You have to create ```.env``` file in ```cinema_project``` directory to record all the data necessary for application that used in ```settings.py```
 
 2. To use all the features of the application (Payment, sending emails etc.), you need to redefine the EMAIL and STRIPE parameters in the ```settings.py``` file.
 
