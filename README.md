@@ -7,5 +7,7 @@
 3. Аfter all the steps, you can run the command ```docker-compose up -d --build``` and use this application.
 
  Application will be available at ```localhost:8000```
+ 
+##After a successful payment, a QR key will be generated and sent to your e-mail, which will be a ticket for the session.
 
 ## Test data will be automatically migrated.
